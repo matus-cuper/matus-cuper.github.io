@@ -33,6 +33,8 @@ a automatizácia softvérových procesov
 * Fakulta informatiky a informačných technológií
 * Odbor informatika
 
+{% google_map %}
+
 **09/2010 - 06/2014 Stredná priemyselná škola Jozefa Murgaša v Banskej Bystrici**
 * Odbor informačné a sieťové technológie
 
