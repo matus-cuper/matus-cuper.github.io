@@ -19,8 +19,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
+h2 {
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -40,4 +40,12 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    line-height: 30px;
 }

@@ -1,0 +1,11 @@
+<!-- If is defined custom stylesheet for actual page -->
+{% assign actual_stylesheet = 'main.css' %}
+{% if page.stylesheet != null %}
+  {% assign actual_stylesheet = page.stylesheet %}
+{% endif %}
+
+<head>
+  <title>{{ page.title }}</title>
+  <!-- link to stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/css/{{ actual_stylesheet }}">
+</head>

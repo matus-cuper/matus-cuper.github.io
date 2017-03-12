@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{% highlight page.file_language %}
+{% include_relative {{ page.file }} %}
+{% endhighlight %}
+
+{{ page.content }}
+<br></br>
+<br></br>
+
+<b>
+  {{ page.env_name | append: ": " }}
+</b>
+
+<i>
+  {{ page.env_version }}
+</i>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{% assign no = page.assign_no | plus: 0 %}
+{% assign number = no | minus: 1 %}
+
+<h3>Maximálny počet bodov: {{ site.data.assignments[number].max_points }}</h3>
+<h3>Dátum odovzdania: {{ site.data.assignments[number].date }}</h3>
+<ul>
+  {% for requirement in site.data.assignments[number].requirements %}
+    <li>{{ requirement }}</li>
+  {% endfor %}
+</ul>
+
+<p>
+  {{ page.content }}
+</p>

@@ -1,0 +1,23 @@
+---
+-
+  max_points: 6
+  date: 2017-03-12
+  requirements:
+    - "sekcia Webové publikovanie s dokumentáciou zadaní"
+    - "použitie git, GitHub pages, Markdown a Jekyll"
+    - "5 rôznych podstránok"
+    - "3 rôzne rozloženie"
+    - "5 premenných"
+    - "kolekcie alebo dátové súbory"
+    - "5 filtrov alebo tagov"
+    - "1 plugin (okrem pagination)"
+-
+  max_points: 0
+  date: 2017-03-26
+  requirements:
+    - "zatiaľ žiadne"
+-
+  max_points: 0
+  date: 2017-05-07
+  requirements:
+    - "zatiaľ žiadne"
