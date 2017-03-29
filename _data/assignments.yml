@@ -11,11 +11,22 @@
     - "kolekcie alebo dátové súbory"
     - "5 filtrov alebo tagov"
     - "1 plugin (okrem pagination)"
+
 -
-  max_points: 0
+  max_points: 6
   date: 2017-03-26
   requirements:
-    - "zatiaľ žiadne"
+    - "dokument s rozsahom minimálne 10 a maximálne 15 strán"
+    - "štandardné členenie textu na kapitola, podkapitola, podpodkapitola, príloha a generovaný obsah"
+    - "zvýraznenie slov, zvýraznenie členenia textu odrážkami alebo číslovaním"
+    - "odkazy na iné časti vlastného dokumentu alebo prípadne odkazy na URL"
+    - "poznámka pod čiarou"
+    - "zoznam použitej literatúry a zdrojov vrátane ich citácie v texte"
+    - "vloženie obrázku a tabuliek a odkazovanie na ne"
+    - "zoznam obrázkov a tabuliek v úvode alebo závere textu"
+    - "vytvorenie registra pojmov s pojmami hierarchicky usporiadanými do dvoch úrovni v rozsahu 10-15 pojmoch "
+    - "správa o rozsahu 150-250 slov s informáciami o použitých elementoch a atribútoch"
+
 -
   max_points: 0
   date: 2017-05-07
