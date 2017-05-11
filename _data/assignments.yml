@@ -28,7 +28,15 @@
     - "správa o rozsahu 150-250 slov s informáciami o použitých elementoch a atribútoch"
 
 -
-  max_points: 0
+  max_points: 14
   date: 2017-05-07
   requirements:
-    - "zatiaľ žiadne"
+    - "identifikovanie základných súčastí prezentácie a navrhnutie XML elementov pre ich označovanie"
+    - "dôraz na znovupoužiteľnosť a vyvarovanie sa redundancií"
+    - "umožnenie zadávania parametrov transformácií"
+    - "použitie DTD, XML Schema alebo RELAX NG"
+    - "vytvorenie ukážkovej prezentácie v navhrnutom jazyku"
+    - "návrh XSL transformácií, ich vhodnosť a parametrizácia"
+    - "vytvorenie XSLT šablóny pre konverziu prezentácie z XML do XHTML+CSS"
+    - "vytvorenie XSLT šablóny pre konverziu prezentácie z XML do PDF"
+    - "každý slide bude v samostatnom XHTML súbore"
